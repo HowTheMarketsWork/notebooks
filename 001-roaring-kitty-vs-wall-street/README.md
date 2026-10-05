@@ -2,6 +2,13 @@
 
 The video: [How The Markets Work on YouTube](https://www.youtube.com/@HowTheMarketsWork)
 
+## Run it in your browser (free, no install)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HowTheMarketsWork/notebooks/blob/main/001-roaring-kitty-vs-wall-street/gex_calculator.ipynb) [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HowTheMarketsWork/notebooks/main?labpath=001-roaring-kitty-vs-wall-street%2Fgex_calculator.ipynb)
+
+- **Open in Colab**: one click, runs in seconds on Google's machines (needs a Google sign-in). Then click *Runtime > Run all*.
+- **Launch Binder**: no account at all; takes a minute or two to start.
+
 ## What's here
 
 **[gex_calculator.ipynb](gex_calculator.ipynb)**: a Net Gamma Exposure (GEX) calculator. It prices gamma for every strike in
@@ -10,7 +17,7 @@ to calm price moves (positive GEX) or speed them up (negative GEX).
 
 Click the notebook to read it on GitHub with its outputs and chart already shown. No install needed to read it.
 
-## Run it yourself
+## Or run it on your own machine
 
 ```bash
 pip install numpy scipy matplotlib
