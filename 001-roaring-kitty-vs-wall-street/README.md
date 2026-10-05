@@ -11,16 +11,14 @@ The video: [How The Markets Work on YouTube](https://www.youtube.com/@HowTheMark
 
 ## What's here
 
-**[gex_calculator.ipynb](gex_calculator.ipynb)**: a Net Gamma Exposure (GEX) calculator. It prices gamma for every strike in
-an options chain with Black-Scholes, then adds it up into the one number from the video: whether dealer hedging is likely
-to calm price moves (positive GEX) or speed them up (negative GEX).
+**[gex_calculator.ipynb](gex_calculator.ipynb)**: type any US ticker with listed options and it tells you whether market makers' hedging is likely to **damp** or **amplify** that stock's moves today, the **price where that flips**, the **strikes with the most hedging pressure**, and how big that hedging is next to the stock's normal daily trading, all in plain English. Each step explains what it does and why, so you learn how the number is built.
 
-Click the notebook to read it on GitHub with its outputs and chart already shown. No install needed to read it.
+The copy on GitHub shows an example run (GME, 2026-10-05). Click the notebook to read it, or *Open in Colab* to run it on any ticker.
 
 ## Or run it on your own machine
 
 ```bash
-pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib pandas yfinance
 jupyter notebook gex_calculator.ipynb
 ```
 
@@ -28,7 +26,7 @@ Then change the sample chain (strikes, open interest, volatility, days to expiry
 
 ## Read this first
 
-- The options chain in the notebook is a **sample**, not live GameStop or market data.
+- Live data comes from Yahoo Finance: free, delayed, and open interest updates once a day. If it can't load, the notebook falls back to a built-in **sample** chain and says so.
 - The sign convention (dealers long the calls and short the puts customers trade) is an **assumption**. Real dealer
   positioning is not public, and a different assumption changes the answer.
 - Educational material only. Not financial, investment, legal or tax advice.
