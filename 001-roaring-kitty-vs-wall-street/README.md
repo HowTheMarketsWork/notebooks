@@ -1,6 +1,6 @@
 # Episode 001: Roaring Kitty vs Wall Street: The Real GameStop Story
 
-The video: [How The Markets Work on YouTube](https://www.youtube.com/@HowTheMarketsWork)
+**Watch the episode:** [Roaring Kitty vs Wall Street: The Real GameStop Story](https://youtu.be/NYvY6hkCW6Y) on [How The Markets Work](https://www.youtube.com/@HowTheMarketsWork)
 
 ## Run it in your browser (free, no install)
 
