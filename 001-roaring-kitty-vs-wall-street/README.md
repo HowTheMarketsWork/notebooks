@@ -13,7 +13,9 @@ The video: [How The Markets Work on YouTube](https://www.youtube.com/@HowTheMark
 
 **[gex_calculator.ipynb](gex_calculator.ipynb)**: type any US ticker with listed options and it tells you whether market makers' hedging is likely to **damp** or **amplify** that stock's moves today, the **price where that flips**, the **strikes with the most hedging pressure**, and how big that hedging is next to the stock's normal daily trading, all in plain English. Each step explains what it does and why, so you learn how the number is built.
 
-The copy on GitHub shows an example run (GME, 2026-10-05). Click the notebook to read it, or *Open in Colab* to run it on any ticker.
+**How to use it:** Open in Colab, type any ticker (and optionally a future expiry date), click *Runtime > Run all*, then read the four numbered lines under **Your result**. The copy on GitHub shows a real example run (TSLA, 2026-10-05).
+
+![How to read your result](how_to_read_your_result.png)
 
 ## Or run it on your own machine
 
